@@ -70,16 +70,19 @@ fun MovieItem(
                     .align(Alignment.TopEnd)
             )
         }
-        Text(
-            text = movie.title,
-            style = MaterialTheme.typography.titleSmall,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis,
-            modifier = Modifier
-                .fillMaxWidth()
-                .background(MaterialTheme.colorScheme.background)
-                .padding(16.dp)
-        )
+        Row {
+            Text(
+                text = movie.title,
+                style = MaterialTheme.typography.titleSmall,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(MaterialTheme.colorScheme.background)
+                    .padding(16.dp)
+            )
+        }
+
     }
 }
 
