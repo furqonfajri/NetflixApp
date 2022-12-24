@@ -63,10 +63,10 @@ fun MovieItem(
                 color = Color.White,
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier
-                    .padding(12.dp)
-                    .clip(RoundedCornerShape(5.dp))
+                    .padding(10.dp)
+                    .clip(RoundedCornerShape(10.dp))
                     .background(Color.Black)
-                    .padding(9.dp)
+                    .padding(10.dp)
                     .align(Alignment.TopEnd)
             )
         }
