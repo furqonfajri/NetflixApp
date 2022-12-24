@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NetflixApp</string>
+    <string name="movie_image">Movie Image</string>
+    <string name="app_bar">App Bar</string>
+</resources>
